@@ -2,6 +2,7 @@
     font-family: inter;
     src: url("assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
 }
+
 button{
     padding: 0;
     border: 0;   
@@ -94,8 +95,9 @@ button:hover, button:focus{
     color: hsl(228, 45%, 44%);
 }
 
-  @media (width <= 375px){
-
-
-
-  }
+@media (width <= 375px){
+    .layout_content{
+        max-width: 326px;
+        padding: 0px 12px;
+    }
+}
